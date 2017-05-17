@@ -36,7 +36,7 @@ app.post('/contact',function(req,res) {
 })
 
 
-var port= process.env.POTT || 3000
+var port= process.env.PORT || 3000
 
 app.listen(port,function(req,res) {
   console.log('listening on'+ port)
